@@ -1,0 +1,6 @@
+nome = input("Digite seu primeiro nome.: ")
+filhos = int(input("Quantos filhos você tem.: "))
+mensalidade = float(input("Qual o valor da mensalidade.: "))
+vlr_total_mes = (mensalidade*filhos)
+opniao = bool(input("Você está gostando do nosso curso? S ou N.: "))
+print(f"Saudações Sr(a) {nome}, registramos os dados associados a quantidade de filhos: {filhos}, o valor total da mensalidade: R$ {vlr_total_mes}. Agradecemos sua opnião {opniao} sobre o curso.")
